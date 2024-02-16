@@ -19,3 +19,25 @@ then you can
 ```bash
 ./dns.sh shecan
 ```
+------
+### for accessing it from anywhere 
+first rename your file
+```bash
+mv dns.sh .dns
+```
+and then give it the required permission by :
+```bash
+chmod +x .dns
+```
+then add this to your .profile
+```bash
+export PATH="$HOME:$PATH"
+```
+and then 
+```bash
+source ~/.bashrc
+```
+no you can run
+```
+.dns 403
+```
