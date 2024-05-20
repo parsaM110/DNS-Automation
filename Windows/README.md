@@ -36,7 +36,15 @@ go and run this in terminal:
 ```dns1
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
+after this I still got errors :
+I did this for this time :
+```dns1
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+```
 # Sources
 - https://stackoverflow.com/questions/57838060/how-to-make-a-powershell-script-avaiable-from-anywhere#:~:text=If%20you%20want%20to%20add,PS1%20file%20from%20anywhere.&text=Name%20the%20script%20something%20meaningful,the%20dir%20to%20windows%20env.
 - https://www.techtarget.com/searchwindowsserver/tutorial/How-to-find-and-customize-your-PowerShell-profile
 - https://stackoverflow.com/questions/9742775/why-is-my-locally-created-script-not-allowed-to-run-under-the-remotesigned-execu
+- https://stackoverflow.com/questions/41117421/ps1-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system
+- https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_signing?view=powershell-7.4
+- https://codesigningstore.com/how-to-sign-a-powershell-script
