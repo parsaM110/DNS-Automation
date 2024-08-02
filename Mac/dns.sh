@@ -18,7 +18,7 @@ case "$1" in
 	sudo dscacheutil -flushcache
         ;;
     "electro")
-	echo -e "\033[0;95melectro\033[0m"
+	echo -e "\033[0;35melectro\033[0m"
 	networksetup -setdnsservers Wi-Fi 78.157.42.101 78.157.42.100
 	sudo dscacheutil -flushcache
         ;;
