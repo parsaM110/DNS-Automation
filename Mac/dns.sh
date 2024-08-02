@@ -3,7 +3,7 @@
 # Check the first argument passed to the script
 case "$1" in
     "shekan")
-	echo -e "\033[0;32mshecan\033[0m"
+	echo -e "\033[0;32mshekan\033[0m"
 	networksetup -setdnsservers Wi-Fi 178.22.122.100 185.51.200.2
 	sudo dscacheutil -flushcache
         ;;
