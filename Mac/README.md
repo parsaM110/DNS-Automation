@@ -41,3 +41,7 @@ no you can run
 ```
 .dns 403
 ```
+## for clearing cache you can also use:
+```bash
+ sudo killall -HUP mDNSResponder  
+```
