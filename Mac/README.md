@@ -45,3 +45,7 @@ no you can run
 ```bash
  sudo killall -HUP mDNSResponder  
 ```
+at last run to check if your changes presist :
+```
+scutil --dns | grep 'nameserver\[[0-9]*\]'
+```
