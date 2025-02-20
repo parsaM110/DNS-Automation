@@ -1,11 +1,6 @@
 ### for accessing it from anywhere
 
-first rename your file:
-
-```bash
-mv dns.sh .dns
-```
-and then give it the required permission by:
+first give it the required permission by:
 
 ```bash
 chmod +x .dns
