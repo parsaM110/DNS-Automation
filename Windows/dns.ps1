@@ -3,7 +3,11 @@ param (
 )
 
 switch ($arg) {
-    "shecan" {
+    "google" {
+        Write-Host "google" -ForegroundColor Magenta
+        Set-DnsClientServerAddress -InterfaceAlias "Wi-Fi" -ServerAddresses ("8.8.8.8", "8.8.4.4")
+    }
+    "shekan" {
         Write-Host "shecan" -ForegroundColor Green
         Set-DnsClientServerAddress -InterfaceAlias "Wi-Fi" -ServerAddresses ("178.22.122.100", "185.51.200.2")
     }
