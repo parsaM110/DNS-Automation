@@ -20,6 +20,6 @@ switch ($arg) {
     	Set-DnsClientServerAddress -InterfaceAlias "Wi-Fi" -ResetServerAddresses
     }
     default {
-        Write-Host "Invalid argument. Usage: dns.ps1 [403|shecan|clear]"
+        Write-Host "Invalid argument. Usage: dns.ps1 [403|shekan|google|clear]"
     }
 }
